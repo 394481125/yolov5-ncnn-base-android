@@ -12,7 +12,7 @@
 
 - [x] 或直接步入
 
-  [colab]: https://colab.research.google.com/drive/1e2tDu9o1H6lK7ZDXcRVSPWARu2xGfsQI?usp=sharing
+  [colab]: https://colab.research.google.com/drive/1e2tDu9o1H6lK7ZDXcRVSPWARu2xGfsQI?usp=sharing	"python-onnx-ncnn"
 
 ## 如何使用
 ### 第一步
