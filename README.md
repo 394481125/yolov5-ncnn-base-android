@@ -10,6 +10,10 @@
 
 - [x] 请参考 [onnx2ncnn.ipynb](onnx2ncnn.ipynb) 
 
+- [x] 或直接步入
+
+  [colab]: https://colab.research.google.com/drive/1e2tDu9o1H6lK7ZDXcRVSPWARu2xGfsQI?usp=sharing
+
 ## 如何使用
 ### 第一步
 
