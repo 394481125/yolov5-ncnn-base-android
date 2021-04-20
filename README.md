@@ -1,23 +1,31 @@
-# ncnn-android-yolov5
+# yolov5-ncnn-base-android
 
-The YOLOv5 object detection
+个人基于YOLOv5的目标检测
 
-this is a sample ncnn android project, it depends on ncnn library only
+参考1：https://github.com/nihui/ncnn-android-yolov5
 
-https://github.com/Tencent/ncnn
+参考2：https://github.com/Tencent/ncnn
 
-## how to build and run
-### step1
-https://github.com/Tencent/ncnn/releases
+## 如何构建onnx
 
-download ncnn-android-vulkan.zip or build ncnn for android yourself
+- [x] 请参考 [onnx2ncnn.ipynb](onnx2ncnn.ipynb) 
 
-### step2
-extract ncnn-android-vulkan.zip into app/src/main/jni or change the ncnn_DIR path to yours in app/src/main/jni/CMakeLists.txt
+## 如何使用
+### 第一步
 
-### step3
-open this project with Android Studio, build it and enjoy!
+- [x] 去网站下载ncnn-android-vulkan.zip【https://github.com/Tencent/ncnn/releases】
 
-## screenshot
-![](screenshot.jpg)
+### 第二步
+- [x] 将ncnn-android-vulkan.zip 解压到 app/src/main/jni 下
+
+- [x] 或在 app/src/main/jni/CMakeLists.txt 配置文件中修改你的 ncnn 文件夹的路径
+
+### 第三步
+- [x] Build！
+
+### 注意：你可能会遇到一些build问题
+
+- [x] 需要您确保您的安卓环境可以成功build apk
+
+- [x] 需要您确保 Android Studio 为最新版本
 
